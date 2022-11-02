@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>To do </title>
     <link rel="stylesheet" href="Css/Style.css">
 
@@ -12,7 +13,11 @@
     <div class="container Form-Container">
         <div class="Todo-Form">
             <form action="" method="post">
-                <input type="text" name="" id="">
+                <input type="text ms-4" name="" id="">
+               <span>
+                <input type="Submit " class="submit-btn" value=""> 
+                <i class="fa-solid fa-square-plus submit-icon mb-2"></i>
+               </span>
                 <select name="" id="">
                     <option value="">Complated</option>
                     <option value="">Not Complated</option>
@@ -22,14 +27,23 @@
 
         </div>
     </div>
-    <div class="container">
+    <div class="container container-result">
         <div class="Todo-result">
-            <ul>
-                <li>Study Mystro Bootcamp</li>
-                <li>Setup my Linkedin</li>
-            </ul>
+            <div class="todo-item">
+                <h3 class="todo-title">Study Mystro Bootcamp</h3>
+                <span type="button">
+                    <i class="fa-sharp fa-solid fa-check todo-check todo-icon"></i>
+
+                </span>
+                <span>
+                    <i class="fa-sharp fa-solid fa-trash todo-delete todo-icon"></i>
+                </span>
+            </div>
         </div>
     </div>
+
+
+    <script src="js/todo.js"></script>
         
    
     
