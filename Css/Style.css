@@ -35,11 +35,11 @@ input , select{
 }
 .submit-btn{
     width: 35px;
-    margin-left: -4px;
+    
 }
 .submit-icon{
     font-size: 22px;
-    margin-left: -33px;
+    
     margin-right: 20px;
     align-items: center;
     display: inline-flex;
@@ -47,6 +47,7 @@ input , select{
 }
 .todo-item{
     background-color: white;
+    margin: 5px 0px;
     
     width: 333px;
     display: flex;
@@ -73,5 +74,12 @@ input , select{
 .todo-delete{
     background-color: #7912eb;
 
+}
+.completed-todo{
+   opacity: .6;
+    text-decoration: line-through;
+}
+.remove-todo{
+    display: none;
 }
    
